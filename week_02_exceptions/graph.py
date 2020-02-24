@@ -21,9 +21,12 @@ class Graph:
         return '<Graph {}>'.format(self.adj)
 
     def in_graph(self, node: Node) -> bool:
-        return node in self.adj
+        raise NotImplementedError
 
-    def add_node(self, node: Node, links: list):
+    def add_node(self, node: Node):
+        raise NotImplementedError
+    
+    def add_edge(self, node1: Node, node2: Node):
         raise NotImplementedError
 
 
