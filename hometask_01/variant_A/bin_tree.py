@@ -49,7 +49,7 @@ def test():
     assert T.max().value == 6
     assert T.min().value == 0
     assert n1.is_leaf
-    assert repr(n2) == '<BinTree 2>'
+    assert repr(n2) == '<BinIntTree 2>'
     n2.value = 15
     assert n2.value == 15
 

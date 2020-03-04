@@ -27,7 +27,7 @@ class Timetable:
     def add(self, task: Task) -> int:
         raise NotImplementedError
 
-    def get(self, task_id: int) -> Task:
+    def get(self, task_id: int):
         raise NotImplementedError
 
     def remove(self, task_id: int):
@@ -43,13 +43,20 @@ class Timetable:
 def test():
     t = Timetable()
     i = t.add(Task('task_A', 10))
-    assert repr(t) == 'Timetable:\n1. task_A (10 h, 0 priority)'
+    assert repr(t) == 'Timetable:\n1. task_A (10 h)'
+
     t.add(Task('task_B', 5, 2))
+    assert repr(t) == 'Timetable:\n' + \
+        '1. task_A (10 h)\n2. task_B (5 h, 2 priority)'
+
+    assert t.get(1).task == 'task_A'
+
     assert [task.task for task in t.arrange_by_time()] == ['task_A', 'task_B']
     assert [task.task for task in t.arrange_by_time(desc=False)] == \
         ['task_B', 'task_A']
     assert [task.task for task in t.arrange_by_priority()] == \
         ['task_B', 'task_A']
+
     t.remove(i)
     assert len(t) == 1
 
