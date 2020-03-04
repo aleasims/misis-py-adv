@@ -2,6 +2,9 @@
 
 
 class Table:
+
+    # __slots__ = ?
+
     def __init__(self, columns: list):
         # self.rows = ?
         raise NotImplementedError
@@ -22,7 +25,7 @@ class Table:
     def next_index(self) -> int:
         raise NotImplementedError
 
-    def validate(self, row):
+    def validate(self, row: list) -> list:
         raise NotImplementedError
 
     def add_row(self, row: list) -> int:
