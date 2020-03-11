@@ -10,7 +10,7 @@ def rle(iterable):
     [('f', 1), ('o', 2)]
     """
     for item, g in itertools.groupby(iterable):
-        yield item, sum(2 for _ in g)  # Change to sum(1 ...)
+        yield item, sum(1 for _ in g)  # Change to sum(1 ...)
 
 
 def test_rle_foo():
