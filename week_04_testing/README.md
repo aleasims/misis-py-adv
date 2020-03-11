@@ -1,5 +1,17 @@
 # Неделя 4
 
+## Ключевые слова этой недели
+
+`docstring`, `type annotations`, `unit-testing`, `integration-testing`, `assert`, `doctest`, `unittest`, `pytest`, `test-driven development`
+
+## Дополнительные материалы
+
+* [Google Style Python Docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
+* [Type Annotations cheatsheet](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html)
+* [Документация](https://docs.pytest.org/en/latest/) `pytest`
+* Начало работы с `pytest` ([статья](https://habr.com/ru/post/448782/))
+* Test Driven Development (TDD) with Python ([статья](https://rubikscode.net/2019/03/04/test-driven-development-tdd-with-python/))
+
 ## Опциональное задание
 
 Для тех, кто хочет попрактиковаться в TDD, рекомендуется следующее несложное задание:
@@ -50,15 +62,3 @@ class Matrix:
 ```
 
 За эти задания можно получить **дополнительные баллы (до 10 баллов)**. Для этого надо выполнить их и показать мне на следующем занятии (13.03).
-
-## Ключевые слова этой недели
-
-`docstring`, `type annotations`, `unit-testing`, `integration-testing`, `assert`, `doctest`, `unittest`, `pytest`, `test-driven development`
-
-## Дополнительные материалы
-
-* [Google Style Python Docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
-* [Type Annotations cheatsheet](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html)
-* [Документация](https://docs.pytest.org/en/latest/) `pytest`
-* Начало работы с `pytest` ([статья](https://habr.com/ru/post/448782/))
-* Test Driven Development (TDD) with Python ([статья](https://rubikscode.net/2019/03/04/test-driven-development-tdd-with-python/))
