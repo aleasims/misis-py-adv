@@ -57,7 +57,7 @@ def mul(A: Matrix, B: Matrix) -> Matrix:
 
 
 class Matrix:
-    def __init__(self, A, B):
+    def __init__(self, A: List[List[float]]):
         pass
 ```
 
