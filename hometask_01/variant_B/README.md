@@ -103,7 +103,7 @@ A B C
 1 2 3
 4 5 6
 >>> table.next_index
-3
+2
 ```
 
 ### `validate`
