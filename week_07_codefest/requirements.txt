@@ -1,0 +1,5 @@
+flake8
+requests
+pytest
+autopep8
+beautifulsoup4
