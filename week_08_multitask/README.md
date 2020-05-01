@@ -6,7 +6,7 @@
 
 Хорошо бы, чтобы после этого занятия вы могли спокойно отвечать на вопрос: "Что такое Х?", где Х — любой термин из Ключевых слов этой недели. Если у вас появились вопросы, задавайте их в личке.
 
-Обещанная домашка по `asyncio` будет после следующего занятия.
+Обещанная домашка по `asyncio` [тут](./HW.md).
 
 ## Ключевые слова этой недели
 
@@ -23,4 +23,5 @@
 * [Статья](https://www.geeksforgeeks.org/inter-process-communication-ipc/?ref=lbp) про IPC — очень доступно объясняются приципы работы.
 * [Статья](https://medium.com/@avneesh.chadha/python-tutorial-speed-up-your-io-operations-with-futures-in-python-51ccd027284c) с введением в `futures` — очень интересная штука. Там разбирается практически такой же код, как мы писали на семинаре (`multitask_fetch.py`), но с использованием Executor-ов. Очень рекомендую к прочтению!
 * Еще одна [статья](https://medium.com/@ageitgey/quick-tip-speed-up-your-python-data-processing-scripts-with-process-pools-cf275350163a) на эту же тему: как ExecutorPool-ы помогают ускорять программы, не усложняя код.
+* [Speed Up Your Python Program With Concurrency](https://realpython.com/python-concurrency/) — очень годная статья с разбором примеров распараллеливания кода приложения. Сравниваюся синхронные, многопроцессорные, многопоточные и асинхронные версии программ.
 * [Документация](https://www.tornadoweb.org/en/stable/guide/intro.html) асинхронного веб-фреймворка Tornado — вдохновителя `asyncio`.

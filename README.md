@@ -1,14 +1,12 @@
 # Python MISIS Spring 2020
 
-Занятия проходят по пятницам с 14:00 до 17:00.
-
-**Внимание!** В связи со сложившейся ситуацией занятия будут проходит онлайн через *Microsoft Teams*.
-
 [Таблица с баллами](https://docs.google.com/spreadsheets/d/1KXf3ejTjPVYbJHih3mzw3vG17xN-Ir-3jNrXu7zil0A/edit?usp=sharing)
 
 [Финальный проект](./PROJECT.md)
 
 ## Новости
+
+* Опубликовано [опциональное домашнее задание](./week_08_multitask/HW.md) по `asyncio`. Сдавать можно до 10 мая 23:59.
 
 * Второе задание проверено до конца. Все баллы в [таблице](https://docs.google.com/spreadsheets/d/1KXf3ejTjPVYbJHih3mzw3vG17xN-Ir-3jNrXu7zil0A/edit?usp=sharing).
 
