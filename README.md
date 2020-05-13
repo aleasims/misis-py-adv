@@ -8,6 +8,8 @@
 
 ## Новости
 
+* Опциональное задание проверено. Предлагаемое решение можно посмотреть [тут](./week_08_multitask/hw_solution).
+
 * Опубликовано [опциональное домашнее задание](./week_08_multitask/HW.md) по `asyncio`. Сдавать можно до 10 мая 23:59.
 
 * Второе задание проверено до конца. Все баллы в [таблице](https://docs.google.com/spreadsheets/d/1KXf3ejTjPVYbJHih3mzw3vG17xN-Ir-3jNrXu7zil0A/edit?usp=sharing).
